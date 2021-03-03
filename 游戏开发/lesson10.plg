@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lesson10 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\XUZHAO~1\AppData\Local\Temp\RSPFD3F.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/lesson10.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\xuzhaopeng\Desktop\ÓÎÏ·¿ª·¢\lesson10.cpp"
+]
+Creating command line "cl.exe @C:\Users\XUZHAO~1\AppData\Local\Temp\RSPFD3F.tmp" 
+Creating temporary file "C:\Users\XUZHAO~1\AppData\Local\Temp\RSPFD50.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib Nafxcwd.lib libcmtd.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/lesson10.pdb" /debug /machine:I386 /nodefaultlib:"libcmtd.lib" /out:"Debug/lesson10.exe" /pdbtype:sept /libpath:"nafxcw.lib libcmt.lib" 
+".\Debug\baiscobj.obj"
+".\Debug\GLFont.obj"
+".\Debug\lesson10.obj"
+".\Debug\OpenGL.obj"
+".\Debug\SkyBox.obj"
+".\Debug\StdAfx.obj"
+]
+Creating command line "link.exe @C:\Users\XUZHAO~1\AppData\Local\Temp\RSPFD50.tmp"
+<h3>Output Window</h3>
+Compiling...
+lesson10.cpp
+Linking...
+LINK : warning LNK4098: defaultlib "LIBCD" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+lesson10.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
